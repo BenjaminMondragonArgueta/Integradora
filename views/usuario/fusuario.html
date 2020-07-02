@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+    <script src="https://kit.fontawesome.com/99cd4bbfb0.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,0">
     <meta name=”author” content="Benjamin Mondragon Argueta Aldrich Zarco Alva Jesrael Escobar Basilio" />
@@ -12,12 +14,12 @@
     <title> System crow </title>
 </head>
 
-<body>
-    <style>
-        body {
-            background-color: #c3c3c3;
-        }
+<body background="fondo.png">
 
+
+    
+    <style>
+     
         footer {
             position: fixed;
             height: 200px;
@@ -26,10 +28,13 @@
         }
     </style>
 
+
+
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1c1c1c;">
 
         <a class="nav--brand" href="#">
-            <FONT FACE="candara" size=6 COLOR="white"> System crow </FONT>
+            <FONT FACE="candara" size=6 COLOR="white">
+                <img src="file:///C:\Users\admin\Integradora\views\usuario\logo.png" width="70" height="70" class="d-inline-block align-center" alt="" loading="lazy">   System crow </FONT>
         </a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarText" aria-controls="navbar">
@@ -92,17 +97,17 @@
 
     <form>
     <h1 class="text-center">
-        <FONT FACE="candara"> Informacion Usuario </FONT>
+        <FONT FACE="candara"COLOR="white"> Informacion Usuario </FONT>
     </h1>
     <div class="container">
         <div class="row">
             <div class="col-md">
-                <font face="helvetica">
-                    Nombre: <input type="text" class="form-control" name="nombre" size="40"></font>
+                <font face="helvetica"COLOR="white"><i class="fas fa-user"></i>
+                    Nombre:<input type="text" class="form-control" name="nombre" size="40"></i></font>
             </div>
             <div class="col-md">
-                <font face="helvetica"> Apellidos: <input type="text" class="form-control" name="apellidos" size="40">
-                </font>
+                <font face="helvetica"COLOR="white"><i class="fas fa-user"></i> 
+                    Apellidos: <input type="text" class="form-control" name="apellidos" size="40"></font>
             </div>
         </div>
     </div>
@@ -110,10 +115,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md">
-                <font face="helvetica"> Edad: <input type="number" class="form-control" name="edad" min="9"></font>
+                <font face="helvetica"COLOR="white"><i class="fas fa-sort-numeric-up-alt"></i>
+                    Edad: <input type="number" class="form-control" name="edad" min="9"></font>
             </div>
             <div class="col-md">
-                <font face="helvetica"> Grado Academico: <select name="Grado Academico" class="form-control">
+                <font face="helvetica" COLOR="white"><i class="fas fa-graduation-cap"></i>
+                    Grado Academico: <select name="Grado Academico" class="form-control">
                         <option>Primaria 4to</option>
                         <option>Primaria 5to</option>
                         <option>Primaria 6to</option>
@@ -131,13 +138,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md">
-                <font face="helvetica">Sexo:
+                <font face="helvetica"COLOR="white"><i class="fas fa-male"></i><i class="fas fa-female"></i>
+                    Sexo:
                     <input type="radio" name="hm" value="h"> Hombre
                     <input type="radio" name="hm" value="m"> Mujer
                 </font>
             </div>
             <div class="col-md">
-                <font face="helvetica">Rol:
+                <font face="helvetica"COLOR="white"><i class="fas fa-user-tag"></i>
+                    Rol:
                     <input type="radio" name="hm" value="A"> Alumno
                     <input type="radio" name="hm" value="C"> Colaborador
                 </font>
@@ -147,11 +156,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md">
-                        <font face="helvetica"> Correo Electronico: <input type="email" class="form-control"
-                                name="Correo" size="40"> </font>
+                        <font face="helvetica"COLOR="white"> <i class="fas fa-envelope"></i>
+                            Correo Electronico: <input type="email" class="form-control" name="Correo" size="40"> </font>
                     </div>
                     <div class="col-md">
-                        <font face="helvetica">Contraseña:<input type="password" class="form-control" name="contrasena">
+                        <font face="helvetica"COLOR="white"><i class="fas fa-unlock-alt"></i>
+                            Contraseña:<input type="password" class="form-control" name="contrasena">
                         </font>
                     </div>
                 </div>
@@ -164,91 +174,84 @@
 
             </form>
 
-                <!-- Footer -->
-     <footer class="page-footer font-small blue pt-4" style="background-color: #1c1c1c;">
+               <!-- Footer -->
+<footer class="page-footer font-small dark pt-4 bg-dark">
 
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-center">
-            <div class="row">
-                <div class="col-md">
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3 ">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase"><FONT FACE="candara"  COLOR="white">System Crow</FONT></h5>
+          <FONT FACE="candara" COLOR="white" TEXT-ALIGN:justify;
+          > Nos encargamos de desarrollar paginas web intuitivas para nuestros
+             clientes, para que nuestros clientes queden satisfechos con nuestro trabajo y tengan una mejor experiencia 
+            de esta manera tendran un mayor acercamiento y productividad con la tecnologia </FONT>
 
-                    <!-- Content -->
-                    <h5 class="text-uppercase">
-                        <FONT FACE="candara" COLOR="white">System Crow</FONT>
-                    </h5>
-                    <FONT FACE="candara" COLOR="white"> Esto solo es una prueba de footer </FONT>
+      </div>
 
+
+      <hr class="clearfix w-100 d-md-none pb-3 ">
+
+      <!-- Grid column -->
+      <div class="col-md">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">
+              <FONT FACE="candara" COLOR="white">Desarrolladores</FONT>
+          </h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"><FONT FACE="candara"  COLOR="white">Mondragon Argueta Benjamin </FONT></a>
+            </li>
+            <li>
+              <a href="#!"><FONT FACE="candara"  COLOR="white">Zarco Alva Adrich</FONT></a>
+            </li>
+            <li>
+              <a href="#!"><FONT FACE="candara"  COLOR="white">Escobar Basilio Jesrael</FONT></a>
+            </li>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase"><FONT FACE="candara"  COLOR="white">Telefonos</FONT></h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"><FONT FACE="helvetica"  COLOR="white">5548384292</FONT></a>
+            </li>
+            <li>
+              <a href="#!"><FONT FACE="helvetica"  COLOR="white">725849322</FONT></a>
+            </li>
+            <li>
+              <a href="#!"><FONT FACE="helvetica"  COLOR="white">725844322</FONT></a>
+            </li>
                 </div>
-        
-
-                <hr class="clearfix w-100 d-md-none pb-3 ">
-
-                <!-- Grid column -->
-                <div class="col-md">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">
-                        <FONT FACE="candara" COLOR="white">Creadores</FONT>
-                    </h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">
-                                <FONT FACE="candara" COLOR="white">Mondragon Argueta Benjamin </FONT>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#!">
-                                <FONT FACE="candara" COLOR="white">Zarco Alva Adrich</FONT>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#!">
-                                <FONT FACE="candara" COLOR="white">Escobar Basilio Jesrael</FONT>
-                            </a>
-                        </li>
-
-                </div>
-
-                <!-- Grid column -->
-                <div class="col-md">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">
-                        <FONT FACE="candara" COLOR="white">Telefonos</FONT>
-                    </h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">
-                                <FONT FACE="helvetica" COLOR="white">5548384292</FONT>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#!">
-                                <FONT FACE="helvetica" COLOR="white">7221217244<FONT FACE="candara"
-                                        COLOR="white"></FONT>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <FONT FACE="helvetica" COLOR="white">7291057803</FONT>
-                            </a>
-                        </li>
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3" style="background-color: #1c1c1c;">
-                <FONT FACE="candara" COLOR="white">Copyright © 2020</FONT>
-                <a href="https://mdbootstrap.com/">
-                    <FONT FACE="candara" COLOR="white">System Crow.com</FONT>
-                </a>
-            </div>
-            <!-- Copyright -->
-        
-    </footer>
-    <!-- Footer -->
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-dark"><FONT FACE="candara" COLOR="white">© 2020 APLICACIONES WEB:</FONT>
+      <a href="https://mdbootstrap.com/"><FONT FACE="candara"  COLOR="white"> System Crow.com</FONT></a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
